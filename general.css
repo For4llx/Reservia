@@ -1,0 +1,175 @@
+@font-face
+{
+    font-family: 'Raleway', sans-serif;
+    src: url('polices/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.section
+{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article
+{
+    border-radius: 17px;
+    background-color: #F2F2F2;
+    padding: 40px;
+    width: 60%;
+    margin-right: 40px;
+}
+.article-width-25percent
+{
+    width: 25%;
+}
+.article-width-100percent
+{
+    width: 100%;
+}
+.article-padding-0px
+{
+    padding: 0px;
+}
+.article-backgroundcolor-white
+{
+    background-color: white;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container-flexdirection-column
+{
+    flex-direction: column;
+}
+.container-width-25percent
+{
+    width: 25%;
+    max-width: 280px;
+    min-width: 280px;
+}
+.container-width-90percent
+{
+    width: 90%;
+}
+.container-justifycontent-flexstart
+{
+    justify-content: flex-start;
+}
+.container-paddingbottom-40px
+{
+    padding-bottom: 40px;
+}
+.figure
+{
+    display: flex;
+}
+.footer
+{
+    background-color: #F2F2F2;
+    padding: 40px;
+    margin-top: 40px;
+}
+body
+{
+    font-family: 'Raleway';
+}
+h1, h2
+{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+h3
+{
+    font-size: 1em;
+}
+p, span
+{
+    font-size: 0.9em;
+}
+img
+{
+    width: 100%;
+    object-fit: cover;
+}
+input
+{
+    border: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+figcaption
+{
+    padding: 5px;
+}
+@media all and (max-device-width: 480px)
+{
+    h1
+    {
+        font-size: 1.4em;
+    }
+    p,span
+    {
+        font-size: 1em;
+    }
+    .section
+    {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+    .article
+    {
+        width: auto;
+        border-radius: 0px;
+        margin-right: 0px;
+        padding: 20px;
+    }
+    .article-backgroundcolor-mobile
+    {
+        background-color: white;
+    }
+    .container-width-25percent
+    {
+        width: 100%;
+        max-width: none;
+    }
+    .container-flexdirection-mobile
+    {
+        flex-direction: row;
+    }
+}
+@media all and (max-device-width: 768px)
+{
+    .section
+    {
+        flex-wrap: wrap-reverse;
+        margin-left: 0px;
+    }
+    .article
+    {
+        width: auto;
+        border-radius: 0px;
+        padding: 20px;
+        margin-right: 0px;
+    }
+    .article-backgroundcolor-mobile
+    {
+        background-color: white;
+    }
+}
