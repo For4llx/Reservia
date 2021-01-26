@@ -1,0 +1,104 @@
+.activity
+{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.activity__container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.activity__column
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 270px;
+    min-width: 270px;
+    margin-right: 40px;
+}
+.activity__card
+{
+    display: block;
+    height: max-content;
+    width: 270px;
+    min-width: 270px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 6px lightgray;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.activity__card--in-column
+{
+    padding: 0px;
+    width: 100%;
+    max-width: none;
+}
+.activity__image
+{
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    height: 350px;
+}
+.activity__image--fort-pomegues
+{
+    height: 150px;
+}
+.activity__image--iles-frioul
+{
+    height: 100px;
+}
+.activity__image--notre-dame-la-garde
+{
+    height: 120px;
+}
+.activity__image--parc-longchamp
+{
+    height: 140px;
+}
+.activity_name
+{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 15px;
+}
+@media all and (max-device-width: 768px) /* Version Ipad */
+{
+    .activity__container
+    {
+        flex-wrap: wrap;
+    }
+    .activity__column
+    {
+        all: unset;
+        display: flex;
+    }
+    .activity__image--fort-pomegues, .activity__image--iles-frioul, .activity__image--notre-dame-la-garde, .activity__image--parc-longchamp
+    {
+        height: 350px;
+        width: 270px;
+    }
+}
+@media all and (max-device-width: 375px) /* Version Iphone 8 */
+{
+    .activity__card
+    {
+        width: 100%;
+    }
+    .activity__image
+    {
+        height: 100px;
+        width: 100%;
+    }
+    .activity__column
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        min-width: 270px;
+        margin-right: 40px;
+    }
+}

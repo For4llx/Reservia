@@ -1,0 +1,19 @@
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    padding: 40px;
+    padding-right: 25%;
+    margin-top: 40px;
+}
+.footer__list
+{
+    padding-top: 20px;
+}
+.footer__bullet
+{
+    font-size: 0.9em;
+    margin-top: 10px;
+}

@@ -1,0 +1,72 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+}
+.header__list
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.header__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid white;
+    padding: 40px;
+}
+.header__button--signing-up
+{
+    color: #0065FC;
+    font-weight: bold;
+}
+.header__button:hover
+{
+    color: #0065FC;
+    border-top: solid #0065FC;
+}
+@media all and (max-device-width: 375px) /* Version Iphone 8 */
+{
+    .header
+    {
+        padding-left: unset;
+    }
+    .header__logo
+    {
+        margin: 25px;
+        position: absolute;
+        align-self: flex-start;
+    }
+    .header__list
+    {
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    }
+    .header__bullet
+    {
+        width: 50%;
+    }
+    .header__bullet:nth-child(3)
+    {
+        order: 1;
+    }
+    .header__button
+    {
+        border-top: none;
+        border-bottom: solid #F2F2F2;
+        padding-bottom: 15px;
+    }
+    .header__button--signing-up
+    {
+        border-bottom: solid white;
+    }
+    .header__button:hover
+    {
+        border-top: none;
+        border-bottom: solid #0065FC;
+        color: #0065FC;
+    }
+}

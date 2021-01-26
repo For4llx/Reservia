@@ -1,0 +1,85 @@
+.search
+{
+    padding-left: 40px;
+}
+.search__bar
+{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 380px;
+    border: solid#F2F2F2 1px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.search__icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    width: 12%;
+}
+.search__input
+{
+    display: block;
+    padding-left: 15px;
+    height: 100%;
+    width: 56%;
+}
+.search__button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    color: white;
+    height: 100%;
+    width: 32%;
+}
+.search__button--mobile
+{
+    display: none;
+}
+@media all and (max-device-width: 375px) /* Version Iphone 8 */
+{
+    .search
+    {
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+    .search__bar
+    {
+        width: 80%;
+    }
+    .search__input
+    {
+        width: 60%;
+    }
+    .search__button--mobile
+    {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search__button--desktop
+    {
+        display: none;
+    }
+    .search__button
+    {
+        border-radius: 15px;
+        width: 20%;
+    }
+    .search__icon
+    {
+        width: 20%;
+    }
+}

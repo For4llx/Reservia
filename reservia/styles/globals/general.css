@@ -1,0 +1,54 @@
+@font-face
+{
+    font-family: 'Raleway', sans-serif;
+    src: url('polices/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: 'Raleway';
+}
+h1, h2
+{
+    font-size: 1.3em;
+}
+h3
+{
+    font-size: 1em;
+}
+p, span
+{
+    font-size: 0.9em;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+input
+{
+    border: none;
+}
+@media all and (max-device-width: 375px) /* Version Iphone 8 */
+{
+    body
+    {
+        width: 375px;
+    }
+    h1
+    {
+        margin-bottom: 15px;
+    }
+    h3
+    {
+        margin-top: 20px;
+    }
+}
