@@ -39,10 +39,6 @@ input
 }
 @media all and (max-device-width: 375px) /* Version Iphone 8 */
 {
-    body
-    {
-        width: 375px;
-    }
     h1
     {
         margin-bottom: 15px;
