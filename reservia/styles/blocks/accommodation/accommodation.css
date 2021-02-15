@@ -112,7 +112,7 @@
     width: max-content;
     margin-top: 25px;
 }
-@media all and (max-device-width: 768px) /* Version Ipad */
+@media all and (max-device-width: 800px) /* Version tablette */
 {
     .accommodation
     {
@@ -130,7 +130,7 @@
         background-color: #F2F2F2;
     }
 }
-@media all and (max-device-width: 375px) /* Version Iphone 8 */
+@media all and (max-device-width: 480px) /* Version mobile*/
 {
     .accommodation
     {
