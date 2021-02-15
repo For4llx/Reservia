@@ -37,7 +37,7 @@ input
 {
     border: none;
 }
-@media all and (max-device-width: 375px) /* Version Iphone 8 */
+@media all and (max-width: 375px) /* Version Iphone 8 */
 {
     h1
     {
