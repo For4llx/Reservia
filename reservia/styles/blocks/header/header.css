@@ -29,7 +29,7 @@
     color: #0065FC;
     border-top: solid #0065FC;
 }
-@media all and (max-device-width: 500px) /* Version mobile */
+@media all and (max-width: 500px) /* Version mobile */
 {
     .header
     {

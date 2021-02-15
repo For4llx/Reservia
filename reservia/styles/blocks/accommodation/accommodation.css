@@ -74,7 +74,7 @@
 .accommodation__description--popular
 {
     margin-bottom: 0px;
-    min-width: 60%;
+    min-width: 55%;
 }
 .accommodation__name
 {
@@ -112,7 +112,7 @@
     width: max-content;
     margin-top: 25px;
 }
-@media all and (max-device-width: 800px) /* Version tablette */
+@media all and (max-width: 800px) /* Version tablette */
 {
     .accommodation
     {
@@ -130,7 +130,7 @@
         background-color: #F2F2F2;
     }
 }
-@media all and (max-device-width: 480px) /* Version mobile*/
+@media all and (max-width: 480px) /* Version mobile*/
 {
     .accommodation
     {
@@ -139,7 +139,6 @@
     }
     .accommodation__article
     {
-        all: unset;
         background-color: white;
         padding: 40px;
         width: 100%;
@@ -157,7 +156,6 @@
     }
     .accommodation__image--popular
     {
-        all: unset;
         object-fit: cover;
         height: 120px;
         width: 120px;

@@ -61,7 +61,7 @@
     font-weight: bold;
     padding: 15px;
 }
-@media all and (max-device-width: 800px) /* Version tablette */
+@media all and (max-width: 800px) /* Version tablette */
 {
     .activity__container
     {
@@ -76,7 +76,7 @@
         width: 280px;
     }
 }
-@media all and (max-device-width: 600px) /* Version mobile */
+@media all and (max-width: 600px) /* Version mobile */
 {
     .activity__card
     {

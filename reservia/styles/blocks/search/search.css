@@ -47,7 +47,7 @@
 {
     display: none;
 }
-@media all and (max-device-width: 480px) /* Version mobile */
+@media all and (max-width: 500px) /* Version mobile */
 {
     .search
     {

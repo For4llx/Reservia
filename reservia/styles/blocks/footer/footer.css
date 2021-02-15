@@ -17,7 +17,7 @@
     font-size: 0.9em;
     margin-top: 10px;
 }
-@media all and (max-device-width: 768px) /* Version Iphone 8 */
+@media all and (max-width: 768px) /* Version Iphone 8 */
 {
     .footer
     {
