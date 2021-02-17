@@ -63,6 +63,7 @@
     .header__button--signing-up
     {
         border-bottom: solid white;
+        justify-content: flex-end;
     }
     .header__button:hover
     {
